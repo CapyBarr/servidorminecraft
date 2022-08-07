@@ -1,0 +1,48 @@
+a {
+    text-decoration: none;
+    display: block;
+    font-size: large;
+    margin: 30px;
+    color: rgb(255, 213, 0);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+a:hover{
+    color: rgb(0, 238, 255);
+    font-size: 20px;
+    transition: 1s;
+    text-shadow: 1px 1px 5px #000;
+}
+div {
+    display: block;
+    width: 50%;
+    text-align: center;
+    background-color: #222;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+}
+body {
+    background-color: #000;
+    padding: 0px;
+}
+.eric {
+    width: auto;
+    min-width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0px auto 0px auto;
+}
+
+h1 {
+    color: azure;
+    margin: 20px auto 20px auto;
+    text-align: center;
+     }
+
+@media only screen and (max-width: 500px){
+    .eric {    
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    object-fit: scale-down;
+    text-align: center;
+    }
+}     
